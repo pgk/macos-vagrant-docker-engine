@@ -26,4 +26,8 @@ brew install docker
 
 brew install docker-compose
 
+echo 'add this to your rc file: export DOCKER_HOST=tcp://docker.local:2375'
+
+# also running this now in case we want to run docker right now.
+export DOCKER_HOST=tcp://docker.local:2375
 
